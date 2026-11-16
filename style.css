@@ -1,0 +1,89 @@
+/* Style global de la page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* En-tête bleu foncé */
+header {
+    background-color: #1e293b;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.sous-titre {
+    color: #94a3b8;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* Conteneur principal centré */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Cartes blanches pour chaque section */
+.carte {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.carte h2 {
+    color: #0f172a;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Badges pour les compétences */
+.liste-competences {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.liste-competences li {
+    background-color: #e0f2fe;
+    color: #0369a1;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Bouton de contact */
+.zone-contact {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bouton {
+    display: inline-block;
+    background-color: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.bouton:hover {
+    background-color: #1d4ed8;
+}
